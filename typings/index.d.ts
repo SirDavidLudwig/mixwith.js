@@ -96,7 +96,7 @@ declare module mixwith {
    * applications of `mixin` to a super class. It's reccomended that `mixin` only
    * access instance state.
    */
-  export function Cached(mixin: Mixin<T>): Mixin<T>;
+  export function Cached<T>(mixin: Mixin<T>): Mixin<T>;
 
   /**
    * Decorates `mixin` so that it only applies if it's not already on the
@@ -121,7 +121,7 @@ declare module mixwith {
    * Decorates a mixin function to add deduplication, application caching and
    * instanceof support.
    */
-  export function Mixin(mixin: Mixin<T>): Mixin<T>;
+  export function Mixin<T>(mixin: Mixin<T>): Mixin<T>;
 
 /**
  * A fluent interface to apply a list of mixins to a superclass.

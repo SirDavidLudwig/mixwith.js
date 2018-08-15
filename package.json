@@ -32,5 +32,6 @@
   "bugs": {
     "url": "https://github.com/justinfagnani/mixwith.js/issues"
   },
-  "homepage": "https://github.com/justinfagnani/mixwith.js#readme"
+  "homepage": "https://github.com/justinfagnani/mixwith.js#readme",
+  "types": "./typings/index.d.ts"
 }
