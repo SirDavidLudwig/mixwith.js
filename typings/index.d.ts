@@ -1,4 +1,4 @@
-declare module mixwith {
+declare module "mixwith" {
   interface Ctor<T> {
     new (...args: any[]): T
   }
